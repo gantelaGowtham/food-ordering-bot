@@ -1,0 +1,112 @@
+{
+  "id": "2ab6bfea-09c8-40d2-bbd3-e4b3d0eb594d",
+  "name": "Buy now",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "d4adafec-d93f-4870-957f-8b34424da6ee",
+          "name": "given-name",
+          "required": true,
+          "dataType": "@sys.given-name",
+          "value": "$given-name",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please provide your name"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "8c061467-8c7e-4558-9643-3a715f414752",
+          "name": "email",
+          "required": true,
+          "dataType": "@sys.email",
+          "value": "$email",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please provide your email"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "7ece0d03-1e8a-4865-9fe6-025005405f34",
+          "name": "phone-number",
+          "required": true,
+          "dataType": "@sys.phone-number",
+          "value": "$phone-number",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please provide your phone-number"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "22c61713-8c55-424a-9c19-2a24afa073fd",
+          "name": "address",
+          "required": true,
+          "dataType": "@sys.address",
+          "value": "$address",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please provide your address"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Your order is booked. You\u0027ll get a confirmation message soon!"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

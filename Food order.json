@@ -1,0 +1,71 @@
+{
+  "id": "b1f522ac-3cab-496d-9b8d-98408ffbb07f",
+  "name": "Food order",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Choose one",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Select"
+            },
+            {
+              "title": "choose 1"
+            },
+            {
+              "title": "choose 2"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

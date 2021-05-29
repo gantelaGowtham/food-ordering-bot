@@ -1,0 +1,78 @@
+{
+  "id": "bd50f3dd-4d2f-45c9-8935-4c9eb0a67f97",
+  "name": "Starters",
+  "auto": true,
+  "contexts": [
+    "await_choice"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "await_choice",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "choose any one option for the starters you like",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "tomato soup"
+            },
+            {
+              "title": "paneer tikka"
+            },
+            {
+              "title": "vegetable samosa"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

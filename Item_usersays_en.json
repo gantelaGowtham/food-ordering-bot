@@ -1,0 +1,67 @@
+[
+  {
+    "id": "f1186b53-3b71-4be8-9640-280efa94bc8f",
+    "data": [
+      {
+        "text": "chocolate",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "18069704-624d-4bfd-a853-242b22cf83b9",
+    "data": [
+      {
+        "text": "ice cream",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "71a74ea0-2d40-4faf-a43b-ef0a60c57d18",
+    "data": [
+      {
+        "text": "tomato soup",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "746ac31e-3a5f-42a8-b069-d34712ea3367",
+    "data": [
+      {
+        "text": "paneer tikka",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "903cb64f-ad95-4fea-9dd7-6f5b12e9e493",
+    "data": [
+      {
+        "text": "vegetable samosa",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]
